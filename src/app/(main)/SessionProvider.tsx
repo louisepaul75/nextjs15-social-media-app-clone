@@ -7,9 +7,7 @@ interface SessionContext {
   user: User;
   session: Session;
 }
-
 const SessionContext = createContext<SessionContext | null>(null);
-
 export default function SessionProvider({
   children,
   value,
