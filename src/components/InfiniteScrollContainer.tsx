@@ -18,7 +18,6 @@ export default function InfiniteScrollContainer({
       }
     },
   });
-
   return (
     <div className={className}>
       {children}
