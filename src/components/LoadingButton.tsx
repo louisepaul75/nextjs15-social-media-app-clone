@@ -5,7 +5,6 @@ import { Button, ButtonProps } from "./ui/button";
 interface LoadingButtonProps extends ButtonProps {
   loading: boolean;
 }
-
 export default function LoadingButton({
   loading,
   disabled,
