@@ -14,7 +14,6 @@ export default function SearchField() {
     if (!q) return;
     router.push(`/search?q=${encodeURIComponent(q)}`);
   }
-
   return (
     <form onSubmit={handleSubmit} method="GET" action="/search">
       <div className="relative">
