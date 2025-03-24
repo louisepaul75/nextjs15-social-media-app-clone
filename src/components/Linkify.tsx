@@ -5,7 +5,6 @@ import UserLinkWithTooltip from "./UserLinkWithTooltip";
 interface LinkifyProps {
   children: React.ReactNode;
 }
-
 export default function Linkify({ children }: LinkifyProps) {
   return (
     <LinkifyUsername>
