@@ -10,8 +10,8 @@ import Link from "next/link";
 interface MessagesButtonProps {
   initialState: MessageCountInfo;
 }
-
 export default function MessagesButton({ initialState }: MessagesButtonProps) {
+  
   const { data } = useQuery({
     queryKey: ["unread-messages-count"],
     queryFn: () =>
