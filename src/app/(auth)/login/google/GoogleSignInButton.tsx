@@ -14,7 +14,6 @@ export default function GoogleSignInButton() {
     </Button>
   );
 }
-
 function GoogleIcon() {
   return (
     <svg
