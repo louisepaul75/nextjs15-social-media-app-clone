@@ -20,11 +20,9 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import UserAvatar from "./UserAvatar";
-
 interface UserButtonProps {
   className?: string;
 }
-
 export default function UserButton({ className }: UserButtonProps) {
   const { user } = useSession();
 
