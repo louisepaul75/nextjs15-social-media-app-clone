@@ -18,7 +18,6 @@ import UserAvatar from "./UserAvatar";
 interface UserTooltipProps extends PropsWithChildren {
   user: UserData;
 }
-
 export default function UserTooltip({ children, user }: UserTooltipProps) {
   const { user: loggedInUser } = useSession();
 
