@@ -11,7 +11,6 @@ import UserTooltip from "./UserTooltip";
 interface UserLinkWithTooltipProps extends PropsWithChildren {
   username: string;
 }
-
 export default function UserLinkWithTooltip({
   children,
   username,
