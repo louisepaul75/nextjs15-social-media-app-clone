@@ -10,7 +10,6 @@ import NotificationsButton from "./NotificationsButton";
 interface MenuBarProps {
   className?: string;
 }
-
 export default async function MenuBar({ className }: MenuBarProps) {
   const { user } = await validateRequest();
 
