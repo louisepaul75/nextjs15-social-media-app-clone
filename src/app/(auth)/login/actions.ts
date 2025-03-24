@@ -22,13 +22,11 @@ export async function login(
         },
       },
     });
-
     if (!existingUser || !existingUser.passwordHash) {
       return {
         error: "Incorrect username or password",
       };
     }
-
     const validPassword = await verify(existingUser.passwordHash, password, {
       memoryCost: 19456,
       timeCost: 2,
