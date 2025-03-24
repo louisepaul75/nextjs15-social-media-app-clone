@@ -10,7 +10,6 @@ import Link from "next/link";
 interface NotificationsButtonProps {
   initialState: NotificationCountInfo;
 }
-
 export default function NotificationsButton({
   initialState,
 }: NotificationsButtonProps) {
