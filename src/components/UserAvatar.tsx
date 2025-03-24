@@ -7,7 +7,6 @@ interface UserAvatarProps {
   size?: number;
   className?: string;
 }
-
 export default function UserAvatar({
   avatarUrl,
   size,
